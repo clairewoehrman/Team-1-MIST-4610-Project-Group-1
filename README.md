@@ -14,4 +14,7 @@
 
 
 ## Data Model:
+
+Our model is...
+
 <img width="1033" height="739" alt="RD" src="https://github.com/user-attachments/assets/0a9ac47e-b413-4782-8d16-294b5b153622" />
