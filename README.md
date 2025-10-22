@@ -17,6 +17,7 @@ Our model is...
 
 <img width="1033" height="739" alt="RD" src="https://github.com/user-attachments/assets/0a9ac47e-b413-4782-8d16-294b5b153622" />
 
+## Data Dictionary:
 <img width="1307" height="351" alt="image" src="https://github.com/user-attachments/assets/29e9637c-80bc-40f0-9756-4a8060f88ff3" />
 
 <img width="1316" height="801" alt="table_Billing" src="https://github.com/user-attachments/assets/5b02f1d3-bdbd-4fbd-8135-cb959fbf377b" />
