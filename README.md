@@ -28,3 +28,6 @@ Our model is...
 <img width="1318" height="449" alt="table_Playlist" src="https://github.com/user-attachments/assets/4bd91c3f-bcf4-4a98-8c1f-29fecef29dd6" />
 
 <img width="1307" height="351" alt="image" src="https://github.com/user-attachments/assets/29e9637c-80bc-40f0-9756-4a8060f88ff3" />
+
+![table_Album](https://github.com/user-attachments/assets/b760ba1f-42c8-4a0d-b936-602b1abac7e8)
+
