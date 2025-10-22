@@ -13,7 +13,10 @@ The goal of this project is to build, design, and implement a relational databas
 
 ## Data Model:
 
-Our model is...
+Explanation of our Data Model:
+Our data model is based on the structure of a music streaming platform that allows users to listen to songs, create playlists, and manage subscriptions. The goal of this design is to capture all the essential entities and their relationships in a system similar to Spotify or Apple Music.
+
+The User entity represents individuals who use the platform. Each user has attributes such as their name, email, date of birth, and the type of subscription they hold. Because every user can only have one active subscription, there is a 
 
 <img width="1033" height="739" alt="RD" src="https://github.com/user-attachments/assets/0a9ac47e-b413-4782-8d16-294b5b153622" />
 
