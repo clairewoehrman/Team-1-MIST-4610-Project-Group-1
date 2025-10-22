@@ -31,3 +31,12 @@ Our model is...
 
 ![table_Album](https://github.com/user-attachments/assets/b760ba1f-42c8-4a0d-b936-602b1abac7e8)
 
+![table_Genre](https://github.com/user-attachments/assets/f7f00b44-40f8-48ce-ad1c-f10f722b9e4c)
+
+![table_Songs](https://github.com/user-attachments/assets/1cec75bb-8138-47fc-abc5-7f5d3a96bdb2)
+
+![table_artistHasSong](https://github.com/user-attachments/assets/648a3aca-fffb-450b-bdb0-bd3e496cc820)
+
+![table_artists](https://github.com/user-attachments/assets/ac081745-e793-4d88-979b-ceb276695ae7)
+
+![table_label](https://github.com/user-attachments/assets/ba942752-946f-4539-8fd9-4c003d772816)
