@@ -23,8 +23,6 @@ Our model is...
 
 <img width="1316" height="801" alt="table_Billing" src="https://github.com/user-attachments/assets/5b02f1d3-bdbd-4fbd-8135-cb959fbf377b" />
 
-#Queries 
-
 <img width="1314" height="473" alt="table_Users" src="https://github.com/user-attachments/assets/a9f35679-0260-40be-a371-d5356d1b1038" />
 
 <img width="1318" height="449" alt="table_Playlist" src="https://github.com/user-attachments/assets/4bd91c3f-bcf4-4a98-8c1f-29fecef29dd6" />
