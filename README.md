@@ -16,7 +16,15 @@ The goal of this project is to build, design, and implement a relational databas
 Explanation of our Data Model:
 Our data model is based on the structure of a music streaming platform that allows users to listen to songs, create playlists, and manage subscriptions. The goal of this design is to capture all the essential entities and their relationships in a system similar to Spotify or Apple Music.
 
-The User entity represents individuals who use the platform. Each user has attributes such as their name, email, date of birth, and the type of subscription they hold. Because every user can only have one active subscription, there is a 
+The User entity represents individuals who use the platform. Each user has attributes such as their name, email, date of birth, and the type of subscription they hold. Each user can subscribe to multiple plans, and each subscription plan can be associated with various users. This many-to-many relationship between Users and Subscriptions allows for flexibility. Users may switch or hold multiple active plans (ex, family or student subscriptions), and the same subscription type can be shared among many users. Billing information is linked to both Users and Subscriptions through the Billing entity, which tracks details such as billing amount, date, and payment method.
+
+The Playlist entity is connected to Users in a one-to-many relationship, since each user can create multiple playlists. Each playlist can contain various songs, and each song can appear in various playlists. This many-to-many relationship between Playlist and Songs is represented through the associative table playlistHasSong, which links songs to playlists.
+
+Music data is organized through the Songs, Albums, Genre, Artists, and Label entities. Each Song includes attributes like title, length, and release date, and it belongs to both a specific Album and Genre. Each Album can contain many songs and is connected to one Artist, forming a one-to-many relationship. Genres represent musical categories such as pop, rock, or hip-hop, and each genre can be linked to many songs.
+
+The Artists entity represents performers and songwriters, while Label captures the record companies they are signed with. Each label can have many artists, but each artist belongs to only one label. Since artists often collaborate on songs, the ArtistHasSong associative entity captures the many-to-many relationship between Artists and Songs.
+
+Overall, the model provides a comprehensive structure to store and analyze user behavior, billing history, subscription patterns, and mustic metadata. It allows for meaningful insights into user activity (such as most played genres or playlists), financial performance through billing data, and artist collaboration networks within the music streaming world.
 
 <img width="1033" height="739" alt="RD" src="https://github.com/user-attachments/assets/0a9ac47e-b413-4782-8d16-294b5b153622" />
 
