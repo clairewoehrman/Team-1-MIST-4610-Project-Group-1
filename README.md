@@ -32,3 +32,16 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 
 
 ## Queries:
+
+1. This query retrieves each user's first and last name along with their associated subscription type.
+IMAGE HERE:
+By joining the Users and Subscription tables, we can easily see which customers belong to which subscription plan. This information allows managers to evaluate the distribution of customers across subscription tiers such as Free, Student, Family, and Premium.
+
+2. This query displays all songs along with the genre they belong to by joining the Songs and Genre tables. In this case, the filter limits the output to the "Pop" genre.
+IMAGE HERE:
+This type of query is useful for curating playlists, analyzing the catalog composition, or targeting users who prefer specific genres. It ensures that the music database is well organized and that songs are properly categorized for user discovery and recommendation algorithms
+
+3. This query produces a combined view of song information, including song title, album name, artist names, and genre.
+IMAGE HERE:
+By joining the Songs, Album, Artists, and Genre tables it creates a complete dataset that represents the full metadata of each track. This comprehensive view is useful for data validation, catalog management, and internal reporting. It ensures that every song is correctly associated with its artist and album, providing a foundation for features like search, recommendations, and playist creation.
+
