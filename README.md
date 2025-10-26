@@ -45,3 +45,7 @@ This type of query is useful for curating playlists, analyzing the catalog compo
 IMAGE HERE:
 By joining the Songs, Album, Artists, and Genre tables it creates a complete dataset that represents the full metadata of each track. This comprehensive view is useful for data validation, catalog management, and internal reporting. It ensures that every song is correctly associated with its artist and album, providing a foundation for features like search, recommendations, and playist creation.
 
+4. This query retrieves all artists signed under a specific label, here Universal Music, by joining the artists and Label tables using labelId.
+IMAGE HERE: This query is useful for record label managers and analysts to view their roster of artists or to generate reports for a particular label. It can help identify which artists    belong to major or independent labels, support label-based marketing campaigns, and provide insight into how artists are distributed across different music labels in the system.
+
+5. 
