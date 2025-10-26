@@ -48,4 +48,14 @@ By joining the Songs, Album, Artists, and Genre tables it creates a complete dat
 4. This query retrieves all artists signed under a specific label, here Universal Music, by joining the artists and Label tables using labelId.
 IMAGE HERE: This query is useful for record label managers and analysts to view their roster of artists or to generate reports for a particular label. It can help identify which artists    belong to major or independent labels, support label-based marketing campaigns, and provide insight into how artists are distributed across different music labels in the system.
 
-5. 
+5. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
+IMAGE HERE:
+This information helps users or managers view an individual’s playlist activity and organization over time. It can also be extended to include song counts or ordering by song duration to analyze playlist structure, user engagement, and music preferences.
+
+6. This query calculates the total revenue generated for each subscription type by summing up all billing amounts associated with each plan. It joins the Subscription and Billing tables through subscriptionId, groups the results by subscription type, and orders them in descending order of total revenue.
+IMAGE HERE:
+This query is useful for identifying which subscription tiers contribute the most to overall revenue. It helps management evaluate financial performance, optimize pricing strategies, and make data-driven decisions to maximize profitability.
+
+7. This query calculates the average subscription price and average duration for each user by joining the Users and Subscription tables through userId. It groups the results by each user to show their typical spending and engagement period.
+IMAGE HERE:
+This query helps evaluate customer value and loyalty by revealing how long users typically stay subscribed and how much they spend on average. It supports decision-making for retention strategies, pricing adjustments, and personalized offers.
