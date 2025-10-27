@@ -76,7 +76,8 @@ By joining the Songs, Album, Artists, and Genre tables it creates a complete dat
 <img width="2075" height="468" alt="image" src="https://github.com/user-attachments/assets/909df6cb-e29e-4e85-aad2-00b942e0f362" />
 This query is useful for identifying which subscription tiers contribute the most to overall revenue. It helps management evaluate financial performance, optimize pricing strategies, and make data-driven decisions to maximize profitability.
 
-6. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
+6. This query retrieves all playlists created by a specific user, in this case Colten Walker, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
+<img width="2060" height="740" alt="image" src="https://github.com/user-attachments/assets/bc345ee7-ef8d-40f8-b3c6-9079f2ee6da3" />
 This information helps users or managers view an individual’s playlist activity and organization over time. It can also be extended to include song counts or ordering by song duration to analyze playlist structure, user engagement, and music preferences.
 
 
