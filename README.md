@@ -86,7 +86,7 @@ This query is valuable for recognizing trending songs that users frequently add 
 
 
 8. This query lists the song title, genre, and number of songs that has similar phrasing to it using a REGEXP
-IMAGE HERE:
+<img width="978" height="568" alt="image" src="https://github.com/user-attachments/assets/86cfb740-fe60-4835-a42d-a6af884d9b95" />
 This query helps can allow artists and creative directors, labels, and songwriters to search in a database songs with similar titles or similar phrasing/wording within titles. For instance, the REGEXP function can be used to search for songs with titles that start with "The" as a means to differentiate titles within albums or between artists.
 
 9. This query lists all songs whose duration is longer than the average length of all songs in the database. It uses a subquery to calculate the overall average song length and compares each song’s duration against that value.
