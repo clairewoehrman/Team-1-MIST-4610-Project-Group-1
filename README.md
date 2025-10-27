@@ -85,9 +85,9 @@ This information helps users or managers view an individual’s playlist activit
 This query is valuable for recognizing trending songs that users frequently add to their playlists. It can inform promotional campaigns, personalized recommendations, and data-driven insights into current listener preferences.
 
 
-8. This query calculates the average subscription price and average duration for each user by joining the Users and Subscription tables through userId. It groups the results by each user to show their typical spending and engagement period.
+8. This query lists the song title, genre, and number of songs that has similar phrasing to it using a REGEXP
 IMAGE HERE:
-This query helps evaluate customer value and loyalty by revealing how long users typically stay subscribed and how much they spend on average. It supports decision-making for retention strategies, pricing adjustments, and personalized offers.
+This query helps can allow artists and creative directors, labels, and songwriters to search in a database songs with similar titles or similar phrasing/wording within titles. For instance, the REGEXP function can be used to search for songs with titles that start with "The" as a means to differentiate titles within albums or between artists.
 
 9. This query lists all songs whose duration is longer than the average length of all songs in the database. It uses a subquery to calculate the overall average song length and compares each song’s duration against that value.
 <img width="1837" height="707" alt="image" src="https://github.com/user-attachments/assets/b18c685e-7a31-478a-85c3-7d03dbe28f03" />
