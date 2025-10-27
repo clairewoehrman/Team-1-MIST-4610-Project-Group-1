@@ -64,13 +64,13 @@ By joining the Users and Subscription tables, we can easily see which customers 
 IMAGE HERE: <img width="2252" height="769" alt="image" src="https://github.com/user-attachments/assets/2d045507-b967-4934-8355-3d94d690e7f2" />
 This type of query is useful for curating playlists, analyzing the catalog composition, or targeting users who prefer specific genres. It ensures that the music database is well organized and that songs are properly categorized for user discovery and recommendation algorithms
 
-4. This query produces a combined view of song information, including song title, album name, artist names, and genre.
-IMAGE HERE:
-By joining the Songs, Album, Artists, and Genre tables it creates a complete dataset that represents the full metadata of each track. This comprehensive view is useful for data validation, catalog management, and internal reporting. It ensures that every song is correctly associated with its artist and album, providing a foundation for features like search, recommendations, and playist creation.
-
-5. This query retrieves all artists signed under a specific label, here Universal Music, by joining the artists and Label tables using labelId.
+3. This query retrieves all artists signed under a specific label, here Universal Music, by joining the artists and Label tables using labelId.
 <img width="2140" height="733" alt="image" src="https://github.com/user-attachments/assets/972062a7-ae6d-4baa-a7a9-3204aa7be927" />
 This query is useful for record label managers and analysts to view their roster of artists or to generate reports for a particular label. It can help identify which artists    belong to major or independent labels, support label-based marketing campaigns, and provide insight into how artists are distributed across different music labels in the system.
+
+4. This query produces a combined view of song information, including song title, album name, artist names, and genre.
+<img width="1057" height="441" alt="image" src="https://github.com/user-attachments/assets/1e385205-ba3d-4f92-95b0-d61dcddf458c" />
+By joining the Songs, Album, Artists, and Genre tables it creates a complete dataset that represents the full metadata of each track. This comprehensive view is useful for data validation, catalog management, and internal reporting. It ensures that every song is correctly associated with its artist and album, providing a foundation for features like search, recommendations, and playist creation.
 
 7. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
 IMAGE HERE:
