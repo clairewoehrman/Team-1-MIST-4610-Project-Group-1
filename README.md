@@ -69,29 +69,30 @@ IMAGE HERE:
 By joining the Songs, Album, Artists, and Genre tables it creates a complete dataset that represents the full metadata of each track. This comprehensive view is useful for data validation, catalog management, and internal reporting. It ensures that every song is correctly associated with its artist and album, providing a foundation for features like search, recommendations, and playist creation.
 
 5. This query retrieves all artists signed under a specific label, here Universal Music, by joining the artists and Label tables using labelId.
-IMAGE HERE: This query is useful for record label managers and analysts to view their roster of artists or to generate reports for a particular label. It can help identify which artists    belong to major or independent labels, support label-based marketing campaigns, and provide insight into how artists are distributed across different music labels in the system.
+<img width="2140" height="733" alt="image" src="https://github.com/user-attachments/assets/972062a7-ae6d-4baa-a7a9-3204aa7be927" />
+This query is useful for record label managers and analysts to view their roster of artists or to generate reports for a particular label. It can help identify which artists    belong to major or independent labels, support label-based marketing campaigns, and provide insight into how artists are distributed across different music labels in the system.
 
-6. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
+7. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
 IMAGE HERE:
 This information helps users or managers view an individual’s playlist activity and organization over time. It can also be extended to include song counts or ordering by song duration to analyze playlist structure, user engagement, and music preferences.
 
-7. This query calculates the total revenue generated for each subscription type by summing up all billing amounts associated with each plan. It joins the Subscription and Billing tables through subscriptionId, groups the results by subscription type, and orders them in descending order of total revenue.
+8. This query calculates the total revenue generated for each subscription type by summing up all billing amounts associated with each plan. It joins the Subscription and Billing tables through subscriptionId, groups the results by subscription type, and orders them in descending order of total revenue.
 IMAGE HERE:
 This query is useful for identifying which subscription tiers contribute the most to overall revenue. It helps management evaluate financial performance, optimize pricing strategies, and make data-driven decisions to maximize profitability.
 
-8. This query calculates the average subscription price and average duration for each user by joining the Users and Subscription tables through userId. It groups the results by each user to show their typical spending and engagement period.
+9. This query calculates the average subscription price and average duration for each user by joining the Users and Subscription tables through userId. It groups the results by each user to show their typical spending and engagement period.
 IMAGE HERE:
 This query helps evaluate customer value and loyalty by revealing how long users typically stay subscribed and how much they spend on average. It supports decision-making for retention strategies, pricing adjustments, and personalized offers.
 
-9. This query identifies the most popular songs based on how many times they appear in playlists. By joining the Songs and playlistHasSong tables through songId, it counts the number of playlist inclusions for each track, orders them by popularity, and limits the result to the top ten songs.
+10. This query identifies the most popular songs based on how many times they appear in playlists. By joining the Songs and playlistHasSong tables through songId, it counts the number of playlist inclusions for each track, orders them by popularity, and limits the result to the top ten songs.
 IMAGE HERE:
 This query is valuable for recognizing trending songs that users frequently add to their playlists. It can inform promotional campaigns, personalized recommendations, and data-driven insights into current listener preferences.
 
-10. This query lists all songs whose duration is longer than the average length of all songs in the database. It uses a subquery to calculate the overall average song length and compares each song’s duration against that value.
+11. This query lists all songs whose duration is longer than the average length of all songs in the database. It uses a subquery to calculate the overall average song length and compares each song’s duration against that value.
 IMAGE HERE:
 This query helps identify longer tracks within the catalog, which can be useful for playlist curation, understanding song length trends, or optimizing streaming recommendations based on track duration patterns.
 
-11. This query calculates the total revenue generated by each record label. It traces the relationships from Label through Artists, Songs, Playlists, Users, Subscription, and Billing tables to link each label to the subscription payments made by users who listen to their artists’ songs. The results are grouped by label and ordered by total revenue in descending order.
+12. This query calculates the total revenue generated by each record label. It traces the relationships from Label through Artists, Songs, Playlists, Users, Subscription, and Billing tables to link each label to the subscription payments made by users who listen to their artists’ songs. The results are grouped by label and ordered by total revenue in descending order.
 IMAGE HERE:
 This query provides valuable insights into which record labels contribute the most to platform revenue. It helps managers evaluate label performance, negotiate partnerships, and make informed decisions about artist promotion and royalty distribution.
 
