@@ -31,27 +31,27 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 
 ## Data Dictionary:
 
-![table_Album](https://github.com/user-attachments/assets/b760ba1f-42c8-4a0d-b936-602b1abac7e8)
+<img width="1628" height="1093" alt="album" src="https://github.com/user-attachments/assets/c71a8c28-47b5-4730-8697-f68587587db4" />
 
-![table_artistHasSong](https://github.com/user-attachments/assets/648a3aca-fffb-450b-bdb0-bd3e496cc820)
+<img width="1633" height="838" alt="artist has song" src="https://github.com/user-attachments/assets/09c0cef3-03a3-4677-bbe3-689e7a5a3c02" />
 
-![table_artists](https://github.com/user-attachments/assets/ac081745-e793-4d88-979b-ceb276695ae7)
+<img width="1630" height="1198" alt="artists" src="https://github.com/user-attachments/assets/6bed1d19-ada5-4687-8f55-71e2485f8510" />
 
-<img width="1316" height="801" alt="table_Billing" src="https://github.com/user-attachments/assets/5b02f1d3-bdbd-4fbd-8135-cb959fbf377b" />
+<img width="1634" height="1174" alt="billing" src="https://github.com/user-attachments/assets/655838b7-5c80-40ff-82b3-7b32df34c123" />
 
-![table_Genre](https://github.com/user-attachments/assets/f7f00b44-40f8-48ce-ad1c-f10f722b9e4c)
+<img width="1633" height="761" alt="genre" src="https://github.com/user-attachments/assets/8be70acd-7e2e-4517-84d8-044846be4e00" />
 
-![table_label](https://github.com/user-attachments/assets/ba942752-946f-4539-8fd9-4c003d772816)
+<img width="1627" height="948" alt="label" src="https://github.com/user-attachments/assets/bff11298-e1c3-47d0-9b7d-87b01012fe95" />
 
-<img width="1318" height="449" alt="table_Playlist" src="https://github.com/user-attachments/assets/4bd91c3f-bcf4-4a98-8c1f-29fecef29dd6" />
+<img width="1628" height="905" alt="playlist" src="https://github.com/user-attachments/assets/e5bb77b1-86e4-4373-a6c6-bf874b66438e" />
 
-<img width="1307" height="351" alt="table_PlaylistHasSong" src="https://github.com/user-attachments/assets/341f25a3-f49d-478c-b4d5-f39217a683ef" />
+<img width="1634" height="556" alt="playlist has song" src="https://github.com/user-attachments/assets/066264ae-2cae-4e55-b28e-8766af4d9c14" />
 
-![table_Songs](https://github.com/user-attachments/assets/1cec75bb-8138-47fc-abc5-7f5d3a96bdb2)
+<img width="1469" height="1245" alt="songs" src="https://github.com/user-attachments/assets/cc4c686a-0695-41ab-ac79-389973754ce9" />
 
-<img width="1332" height="651" alt="table_Subscription" src="https://github.com/user-attachments/assets/64c48617-1bf1-4db1-8aa9-dd61a084aa4c" />
+<img width="1468" height="896" alt="subscription" src="https://github.com/user-attachments/assets/d391304c-4dbf-4800-bddd-08b5c1e20fbe" />
 
-<img width="1314" height="473" alt="table_Users" src="https://github.com/user-attachments/assets/a9f35679-0260-40be-a371-d5356d1b1038" />
+<img width="1466" height="820" alt="users" src="https://github.com/user-attachments/assets/d8dc88aa-1f14-4ad3-af55-9615e4fbc2b8" />
 
 
 ## Queries:
