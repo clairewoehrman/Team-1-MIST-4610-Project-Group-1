@@ -80,15 +80,14 @@ This query is useful for identifying which subscription tiers contribute the mos
 <img width="2060" height="740" alt="image" src="https://github.com/user-attachments/assets/bc345ee7-ef8d-40f8-b3c6-9079f2ee6da3" />
 This information helps users or managers view an individual’s playlist activity and organization over time. It can also be extended to include song counts or ordering by song duration to analyze playlist structure, user engagement, and music preferences.
 
+7. This query identifies the most popular songs based on how many times they appear in playlists. By joining the Songs and playlistHasSong tables through songId, it counts the number of playlist inclusions for each track, orders them by popularity, and limits the result to the top ten songs.
+<img width="1809" height="703" alt="image" src="https://github.com/user-attachments/assets/867ac2f4-9768-4ad1-a256-e7abd323a940" />
+This query is valuable for recognizing trending songs that users frequently add to their playlists. It can inform promotional campaigns, personalized recommendations, and data-driven insights into current listener preferences.
 
 
 9. This query calculates the average subscription price and average duration for each user by joining the Users and Subscription tables through userId. It groups the results by each user to show their typical spending and engagement period.
 IMAGE HERE:
 This query helps evaluate customer value and loyalty by revealing how long users typically stay subscribed and how much they spend on average. It supports decision-making for retention strategies, pricing adjustments, and personalized offers.
-
-10. This query identifies the most popular songs based on how many times they appear in playlists. By joining the Songs and playlistHasSong tables through songId, it counts the number of playlist inclusions for each track, orders them by popularity, and limits the result to the top ten songs.
-IMAGE HERE:
-This query is valuable for recognizing trending songs that users frequently add to their playlists. It can inform promotional campaigns, personalized recommendations, and data-driven insights into current listener preferences.
 
 11. This query lists all songs whose duration is longer than the average length of all songs in the database. It uses a subquery to calculate the overall average song length and compares each song’s duration against that value.
 IMAGE HERE:
