@@ -72,13 +72,14 @@ This query is useful for record label managers and analysts to view their roster
 <img width="1057" height="441" alt="image" src="https://github.com/user-attachments/assets/1e385205-ba3d-4f92-95b0-d61dcddf458c" />
 By joining the Songs, Album, Artists, and Genre tables it creates a complete dataset that represents the full metadata of each track. This comprehensive view is useful for data validation, catalog management, and internal reporting. It ensures that every song is correctly associated with its artist and album, providing a foundation for features like search, recommendations, and playist creation.
 
-5. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
-<img width="2075" height="468" alt="image" src="https://github.com/user-attachments/assets/7cfda402-5ff6-4311-88cc-de04361fab0a" />
+5. This query calculates the total revenue generated for each subscription type by summing up all billing amounts associated with each plan. It joins the Subscription and Billing tables through subscriptionId, groups the results by subscription type, and orders them in descending order of total revenue.
+<img width="2075" height="468" alt="image" src="https://github.com/user-attachments/assets/909df6cb-e29e-4e85-aad2-00b942e0f362" />
+This query is useful for identifying which subscription tiers contribute the most to overall revenue. It helps management evaluate financial performance, optimize pricing strategies, and make data-driven decisions to maximize profitability.
+
+6. This query retrieves all playlists created by a specific user, in this case John Doe, along with the date each playlist was created. It joins the Playlist and Users tables using userId to match playlists with their creators.
 This information helps users or managers view an individual’s playlist activity and organization over time. It can also be extended to include song counts or ordering by song duration to analyze playlist structure, user engagement, and music preferences.
 
-8. This query calculates the total revenue generated for each subscription type by summing up all billing amounts associated with each plan. It joins the Subscription and Billing tables through subscriptionId, groups the results by subscription type, and orders them in descending order of total revenue.
-IMAGE HERE:
-This query is useful for identifying which subscription tiers contribute the most to overall revenue. It helps management evaluate financial performance, optimize pricing strategies, and make data-driven decisions to maximize profitability.
+
 
 9. This query calculates the average subscription price and average duration for each user by joining the Users and Subscription tables through userId. It groups the results by each user to show their typical spending and engagement period.
 IMAGE HERE:
