@@ -57,11 +57,7 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 ## Queries:
 
 1. This query retrieves each user's first and last name along with their associated subscription type.
-
-SELECT userFname, userLname, subscriptionType
-FROM Users
-JOIN Subscription ON Users.userID = userId;
-
+IMAGE HERE:
 By joining the Users and Subscription tables, we can easily see which customers belong to which subscription plan. This information allows managers to evaluate the distribution of customers across subscription tiers such as Free, Student, Family, and Premium.
 
 3. This query displays all songs along with the genre they belong to by joining the Songs and Genre tables. In this case, the filter limits the output to the "Pop" genre.
