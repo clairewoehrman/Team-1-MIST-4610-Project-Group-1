@@ -37,7 +37,7 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 
 <img width="1630" height="1198" alt="artists" src="https://github.com/user-attachments/assets/6bed1d19-ada5-4687-8f55-71e2485f8510" />
 
-<img width="1634" height="1174" alt="billing" src="https://github.com/user-attachments/assets/655838b7-5c80-40ff-82b3-7b32df34c123" />
+<img width="1628" height="1174" alt="billing" src="https://github.com/user-attachments/assets/453dcc22-8d13-4ddd-b9ee-8d50bb04d481" />
 
 <img width="1633" height="761" alt="genre" src="https://github.com/user-attachments/assets/8be70acd-7e2e-4517-84d8-044846be4e00" />
 
@@ -49,7 +49,7 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 
 <img width="1469" height="1245" alt="songs" src="https://github.com/user-attachments/assets/cc4c686a-0695-41ab-ac79-389973754ce9" />
 
-<img width="1468" height="896" alt="subscription" src="https://github.com/user-attachments/assets/d391304c-4dbf-4800-bddd-08b5c1e20fbe" />
+<img width="1458" height="896" alt="subscription" src="https://github.com/user-attachments/assets/f7f2db8f-57b6-4903-8ec0-9822af277a8b" />
 
 <img width="1466" height="820" alt="users" src="https://github.com/user-attachments/assets/d8dc88aa-1f14-4ad3-af55-9615e4fbc2b8" />
 
