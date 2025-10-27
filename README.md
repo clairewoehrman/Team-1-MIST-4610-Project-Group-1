@@ -26,7 +26,8 @@ The Artists entity represents performers and songwriters, while Label captures t
 
 Overall, the model provides a comprehensive structure to store and analyze user behavior, billing history, subscription patterns, and mustic metadata. It allows for meaningful insights into user activity (such as most played genres or playlists), financial performance through billing data, and artist collaboration networks within the music streaming world.
 
-<img width="1033" height="739" alt="RD" src="https://github.com/user-attachments/assets/0a9ac47e-b413-4782-8d16-294b5b153622" />
+<img width="939" height="696" alt="image" src="https://github.com/user-attachments/assets/328e543e-38e9-4d9f-9cac-8991f05d7523" />
+
 
 
 ## Data Dictionary:
