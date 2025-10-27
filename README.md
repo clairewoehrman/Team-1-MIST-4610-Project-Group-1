@@ -60,8 +60,8 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 <img width="2243" height="1002" alt="image" src="https://github.com/user-attachments/assets/f04fe6d9-980c-4598-a813-6a769c32b3d1" />
 By joining the Users and Subscription tables, we can easily see which customers belong to which subscription plan. This information allows managers to evaluate the distribution of customers across subscription tiers such as Free, Student, Family, and Premium.
 
-3. This query displays all songs along with the genre they belong to by joining the Songs and Genre tables. In this case, the filter limits the output to the "Pop" genre.
-IMAGE HERE:
+2. This query displays all songs along with the genre they belong to by joining the Songs and Genre tables. In this case, the filter limits the output to the "Pop" genre.
+IMAGE HERE: <img width="2252" height="769" alt="image" src="https://github.com/user-attachments/assets/2d045507-b967-4934-8355-3d94d690e7f2" />
 This type of query is useful for curating playlists, analyzing the catalog composition, or targeting users who prefer specific genres. It ensures that the music database is well organized and that songs are properly categorized for user discovery and recommendation algorithms
 
 4. This query produces a combined view of song information, including song title, album name, artist names, and genre.
