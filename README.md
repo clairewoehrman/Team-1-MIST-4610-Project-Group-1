@@ -39,7 +39,7 @@ Overall, the model provides a comprehensive structure to store and analyze user 
 
 <img width="1628" height="1174" alt="billing" src="https://github.com/user-attachments/assets/453dcc22-8d13-4ddd-b9ee-8d50bb04d481" />
 
-<img width="1633" height="761" alt="genre" src="https://github.com/user-attachments/assets/8be70acd-7e2e-4517-84d8-044846be4e00" />
+<img width="1628" height="761" alt="genre" src="https://github.com/user-attachments/assets/d50ccca3-80c9-416c-9c70-82d710acffdc" />
 
 <img width="1627" height="948" alt="label" src="https://github.com/user-attachments/assets/bff11298-e1c3-47d0-9b7d-87b01012fe95" />
 
